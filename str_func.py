@@ -1,9 +1,9 @@
-def str_upper(value):
+def str_upper(user_value):
     """Функция делает все заглавные буквы в строке"""
-    result = value.upper()
+    result = user_value.upper()
     return result
 
-def str_title(value):
+def str_title(user_value):
     """Функция делает все слова с большой буквы в строке"""
-    result = value.title()
+    result = user_value.title()
     return result
